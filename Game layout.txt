@@ -1,0 +1,22 @@
+poker_game/
+│
+├── src/                     # Source code
+│   ├── __init__.py         # Package initializer
+│   ├── game.py             # Game logic (Game class, Player class, etc.)
+│   ├── deck.py             # Card and Deck classes
+│   ├── hand_evaluation.py   # Hand evaluation logic
+│   ├── probability.py       # Probability calculations
+│   ├── analytics.py         # Analytics and statistics
+│   ├── ml_model.py          # Machine learning models
+│   ├── dashboard.py         # Dashboard and visualization
+│
+├── data/                    # Data storage (for logs, models, etc.)
+│   ├── game_log.csv         # CSV for game logs
+│   └── models/              # Directory for ML models
+│
+├── tests/                   # Unit tests
+│   ├── test_game.py         # Tests for game logic
+│   ├── test_ml_model.py     # Tests for ML models
+│
+├── requirements.txt         # Required packages
+└── main.py                  # Entry point for the application
